@@ -4,6 +4,11 @@ body {
 	font-family: 'Playfair Display', serif;;
 }
 
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
 #nav {
 	background: black;
 	width: 100%;
