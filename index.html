@@ -91,7 +91,49 @@
 			padding: 20px;
 
 		}
+
+		.card {
+			background-color: khaki;
+			padding: 20px;
+			margin-top: 20px;
+		}
+		.row:after {
+			content: "";
+			display: table;
+			clear: both;
+		}
+		.footer {
+			padding: 20px;
+			text-align: center;
+			background: #ddd;
+			margin-top: 20px;
+		}
+
+		/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on the top of each other instead of next to each other */ @media screen and (max-width: 800px) {
+			.leftcolumn, .rightcolumn {
+				width: 100%;
+				padding: 0;
+			}
+		}
 	</style>
+	<div class="row">
+		<div class="leftcolumn">
+			<div class="card">
+				<h2>
+					<u>Knowing Me!</u>
+				</h2>
+				<h5>Fazelin Zaini</h5>
+				<p>
+					<b> Independent Youngest Sister </b>
+				</p>
+				<p>
+					"Sometimes it just takes a little reminder that helps us to realize the incredible potential that lies within us. As s woman, we do not only provide the necessary essentials for life, but we also have the power to create life. Without us, the circle would be far from closed. Aside from that, the quote empowers us to be confident in becoming the strong woman we want to be. We are able to transform and to change, which allows us to leave all negativity behind. Don't allow others to decide about your life, but instead seize the power that lies within us. 
+					"The power we have is to be the best version of ourself we can be, so we can create a better world." ~ Ashley Rickards
+				</p>
+			</div>
+		</div>
+		
+	</div>
 
 </body>
 </html>
